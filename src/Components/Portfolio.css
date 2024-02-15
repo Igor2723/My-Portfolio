@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&family=Rubik&display=swap');
+
+.portfolio-container {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}  
+.portfolio-container h3{
+    margin: 3rem auto;
+    font-size: 1.6rem;
+    color: #163C8C;
+} 
+.vcart-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    gap: 1rem;
+    width: 70%;
+    border: 5px solid #001A52;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px 10px rgba(38, 38, 38, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.about-app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: justify;
+    font-size: 1.07rem;
+    width: 30rem;
+    height: 34rem;
+    color: #6E6E6E;
+    border-radius: 10px;
+    line-height: 1.55rem;
+    padding: 1rem;
+    gap: 1.5rem;
+    overflow: hidden;
+}
+.about-app-container h4{
+    color: #001A52;
+    font-size: 1.3rem;
+}
+.about-app-container p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.iFrame{
+    width: 30rem;
+    height: 34rem;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1564px) {
+    .about-app-container{
+        overflow: auto;
+    }
+  }
+@media only screen and (max-width: 1564px) {
+    .about-app-container, .iFrame{
+        width: 28rem;
+        height: 32rem;
+    }
+  }
+  @media only screen and (max-width: 1473px) {
+    .about-app-container, .iFrame{
+        width: 26rem;
+        height: 30rem;
+    }
+  }
+  @media only screen and (max-width: 1290px) {
+    .about-app-container, .iFrame{
+        width: 24rem;
+        height: 28rem;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    .vcart-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       width: 60%;
+    }.about-app-container, .iFrame{
+        width: 32rem;
+        height: 36rem;
+    }
+  }
+  @media only screen and (max-width: 970px) {
+    .vcart-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       width: 70%;
+    }.about-app-container, .iFrame{
+        width: 28rem;
+        height: 32rem;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .vcart-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       width: 80%;
+    }.about-app-container, .iFrame{
+        width: 26rem;
+        height: 30rem;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .vcart-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       width: 90%;
+    }.about-app-container, .iFrame{
+        width: 24rem;
+        height: 28rem;
+    }
+  }
+  @media only screen and (max-width: 680px) {
+    .vcart-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       width: 90%;
+    }.about-app-container, .iFrame{
+        width: 22rem;
+        height: 26rem;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .vcart-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       width: 90%;
+    }.about-app-container, .iFrame{
+        width: 20rem;
+        height: 24rem;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .vcart-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         width: 90%;
+    }.about-app-container, .iFrame{
+        width: 18rem;
+        height: 22rem;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .vcart-container{
+        width: inherit;
+        border: none;
+        box-shadow: none;
+     }.about-app-container, .iFrame{
+         width: inherit;
+         
+     }
+  }
+  @media only screen and (max-width: 360px) {
+    .vcart-container{
+       width: inherit;
+       border: none;
+    }.about-app-container, .iFrame{
+        width: 100%;
+    }
+  }
+  
+

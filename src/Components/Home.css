@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,600;1,700&display=swap');
+main {
+    background-color: #001A52;
+    min-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row-reverse wrap;
+    gap: 7%;
+    padding: 9.6rem 1.5rem;
+    overflow-x: hidden;
+    text-wrap: wrap;
+}
+.greeting {
+    margin-top: 4rem;
+    line-height: 2.5rem;
+}
+.greeting h1 {
+    color: #FFFFFF;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+}
+.greeting h3 {
+  font-size: 2.1rem;
+  color: #F9A31C;
+  line-height: 2.2rem;
+}
+.greeting p {
+    color: #F3F4F5;
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 2rem;
+}
+.greeting h6 {
+  color: #F9A31C;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+#skills {
+  color: #FFFFFF;
+  margin: 2.7rem 0 1.5rem 0;
+}
+#skills h2 {
+  font-size: 2rem;
+}
+#skills .brands {
+    font-size: 2rem;
+    margin: .5em .2em 0 0;
+}
+.contact-btn {
+    border: none;
+    border-radius: 1rem;
+    color: #F3F4F5 ;
+    background-color: #F9A31C;
+    padding: .2em .7em;
+    margin-top: 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+    max-width: 18.5rem;
+}
+.contact-btn:hover {
+    background-color: #FFFFFF;
+    color: #F9A31C;
+    transition: .2s ease-in-out;
+}
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+  .circle {
+    position: relative;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 2px solid #F9A31C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-photo {
+    position: absolute;
+    width: 19rem;
+    height: 19rem;
+    background: url("../assets/idphoto.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.text {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    color: #001A52;
+    animation: rotateText 10s linear infinite;
+}
+@keyframes rotateText {
+    0% 
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.1em;
+    transform-origin: 0 10.8rem;
+}
+  @media only screen and (max-width: 1212px) {
+    .greeting, .skills {
+      text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 969px) {
+
+  main{
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+ .profile {
+  align-items: center;
+ }
+ .cv {
+  font-size: 1.7rem;
+  width: 15.5rem;
+ }
+ 
+}
+@media only screen and (max-width: 800px) {
+ 
+}
+@media only screen and (max-width: 410px) {
+  .profile-photo {
+    width: 16rem;
+    height: 16rem;
+  }
+  .circle{
+    width: 19rem;
+    height: 19rem;
+  }
+  .text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1em;
+    transform-origin: 0 9.4rem;
+}
+}
+@media only screen and (max-width: 360px) {
+  .profile-photo {
+    width: 14rem;
+    height: 14rem;
+  }
+  .circle{
+    width: 16.8rem;
+    height: 16.8rem;
+  }
+  .text span {
+    position: absolute;
+    left: 50%;
+    font-size: .9em;
+    transform-origin: 0 8.22rem;
+}
+}
+@media only screen and (max-width: 321px) {
+  .profile-photo {
+    width: 12rem;
+    height: 12rem;
+  }
+  .circle{
+    width: 14.8rem;
+    height: 14.8rem;
+  }
+  .text span {
+    position: absolute;
+    left: 50%;
+    font-size: .8em;
+    transform-origin: 0 7.23rem;
+}
+}
+@media only screen and (max-width: 315px) {
+
+  .cv {
+    font-size: 1.3rem;
+    width: 12.5rem;
+   }
+}
+@media only screen and (max-width: 559px) {
+.greeting h3 {
+  font-size: 1.8rem;
+}
+.code {
+  font-size: 2.2rem;
+}
+}
+@media only screen and (max-width: 488px) {
+  .greeting h3 {
+    font-size: 1.6rem;
+  }
+  .code {
+    font-size: 2rem;
+  }
+  }
+  @media only screen and (max-width: 440px) {
+    .greeting h3 {
+      font-size: 1.5rem;
+    }
+    .code {
+      font-size: 1.8rem;
+    }
+    }

@@ -1,0 +1,163 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 10px;
+}
+#contact h1{
+    margin: 5rem auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #163C8C;
+    text-shadow: 3px 3px lightgray;
+    letter-spacing: .3rem;
+    font-size: 2.5rem;
+}
+.contact-container{
+    margin: 3rem auto;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.email-container{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 1.3rem;
+    border: 3px solid #6E6E6E;
+    justify-content: space-evenly;
+}
+.email-container h3, .social-container h3{
+    font-size: 1.5rem;
+}
+.email-icon{
+    font-size: 3.7rem;
+}
+.email-txt{
+    display: block;
+    line-height: .8rem;
+}
+.email-txt a{
+    width: 10%;
+    text-decoration: none;
+    color: #6E6E6E;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: .2s ease-in-out;
+}
+.email-txt a:hover{
+    cursor: pointer;
+    color: #163C8C;
+}
+.social-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 1.3rem;
+    border: 3px solid #6E6E6E;
+
+}
+.icons-container{
+    display: inline-flex;
+    gap: 1.5rem;
+}
+.social-icon{
+    font-size: 2rem;
+    transition: .2s ease-in-out;
+}
+.social-icon:hover{
+    cursor: pointer;
+    color: #F9A31C !important;
+}
+
+@media only screen and (max-width: 1291px) {
+    #contact{
+       align-items: center;
+       justify-content: center;
+       text-wrap: wrap;
+       flex-wrap: wrap;
+       text-align: center;
+       width: 80%;
+    }
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 660px) {
+    .social-container, .email-container{
+        width: 22rem;   
+    }
+    .email-icon {
+        font-size: 3.2rem;
+    }
+    .social-icon{
+        font-size: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 535px) {
+    .social-container, .email-container{
+        width: 18rem;   
+    }
+    .email-icon {
+        font-size: 2.5rem;
+    }
+    .email-container{
+        gap: 1rem;  
+    }
+  }
+  @media only screen and (max-width: 438px) {
+    .social-container, .email-container{
+        width: 15rem; 
+        border: none;  
+    }
+    .email-icon {
+        font-size: 2.3rem;
+    }
+    .email-container{
+        gap: 1rem;  
+    }
+    #contact{
+        width: 100%;
+     }
+  }
+  @media only screen and (max-width: 385px) {
+    .social-container, .email-container{
+        width: 13rem; 
+        border: none;  
+    }
+    .email-icon {
+        font-size: 2rem;
+    }
+    .email-container{
+        gap: 1rem;  
+    }
+
+  }
+  @media only screen and (max-width: 332px) {
+    #contact h1{
+        font-size: 2.2rem;
+    }
+    .social-container, .email-container{
+        width: 13rem; 
+        border: none;  
+    }
+    .email-icon {
+        font-size: 2rem;
+    }
+    .email-container{
+        gap: 1rem;  
+    }
+
+  }
+  
+  
