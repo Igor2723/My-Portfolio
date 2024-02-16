@@ -4,14 +4,13 @@ import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import idimg from '../assets/idphoto.jpg'; 
-import { HashLink as Link } from 'react-router-hash-link';
 
 function Home() {
   useEffect(() => {
     const text = document.querySelector('.text p');
     text.innerHTML = text.innerText.split("").map(
     (char, i) =>
-    `<span style="transform:rotate(${i * 7}deg)">${char}</span>`
+    `<span style="transform:rotate(${i * 14}deg)">${char}</span>`
   ).join("").toUpperCase();
   }, []);
   
