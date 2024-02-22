@@ -29,7 +29,7 @@ main {
 }
 .greeting p {
     color: #F3F4F5;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-style: italic;
     line-height: 2rem;
 }
@@ -52,15 +52,16 @@ main {
 .contact-btn {
     border: none;
     border-radius: 1rem;
-    color: #F3F4F5 ;
-    background-color: #F9A31C;
+    border: 5px solid #F3F4F5;
+    color: #F9A31C;
+    background: transparent;
     padding: .2em .7em;
     margin-top: 3rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
     max-width: 18.5rem;
 }
@@ -91,7 +92,7 @@ main {
     position: absolute;
     width: 19rem;
     height: 19rem;
-    background: url("../assets/idphoto.jpg");
+    background: url("../assets/idphoto.webp");
     background-size: cover;
     border-radius: 50%;
 }

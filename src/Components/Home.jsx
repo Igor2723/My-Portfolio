@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import idimg from '../assets/idphoto.jpg'; 
 
 function Home() {
   useEffect(() => {
@@ -32,7 +31,7 @@ function Home() {
             <br/>
             <h3>Front-End React Developer <FontAwesomeIcon icon={faCode} style={{color: "#FFFFFF",}} /></h3>
             <br/>
-            <p>Hi, I'm Igor.
+            <p>Hi, I'm Igor Zivkovic.
               A dedicated Front-End React <br/>developer
               based in Serbia.</p>
             <br/> <h6>Producing quality work.</h6>

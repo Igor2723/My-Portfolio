@@ -2,7 +2,7 @@ import React from 'react';
 import "./AboutMe.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
-import aboutimg from '../assets/about.jpg';
+import aboutimg from '../assets/about.webp';
 
 function AboutMe () {
     return(

@@ -7,7 +7,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div id="contact">
-      <h1>Reach out to me! <FontAwesomeIcon icon={faPaperPlane} style={{color: "#F9A31C",}} /></h1>
+      <h1>Reach out to me! <FontAwesomeIcon icon={faPaperPlane} style={{color: "#262626",}} /></h1>
       <div className="contact-container">
         <div className="email-container">
           <FontAwesomeIcon className="email-icon" icon={faEnvelope} style={{color: "#F9A31C",}} />

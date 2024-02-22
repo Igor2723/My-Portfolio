@@ -17,7 +17,7 @@ function Navbar () {
 
   return (
     <nav className={toggle?'navbar expanded':'navbar'}>
-		<h2 className="nav-logo"><Link to="#home" smooth onClick={closeMenu}> Igor.Dev</Link></h2>
+		<h2 className="nav-logo"><Link to="#home" smooth onClick={closeMenu}> IgDev</Link></h2>
         <div className='toggle-icon' onClick={handleToggle}>
           {toggle?<Icon icon={x} size={35}/>:<Icon icon={menu} size={35}/>}
         </div>

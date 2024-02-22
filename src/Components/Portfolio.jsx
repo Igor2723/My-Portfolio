@@ -10,7 +10,9 @@ function Portfolio () {
                 <h3>Portoflio <FontAwesomeIcon icon={faStar} style={{color: "#F9A31C",}} /></h3>
                 <div className="vcart-container">
                     <div className="about-app-container">
-                    <h4>Vinyl Craft Art</h4>
+                        <a href="https://vinyl-craft-art.netlify.app" target='blank'>
+                            <h4>Vinyl Craft Art</h4>
+                        </a>    
                         <p>
                         A redesigned clone of my original 'Vinyl Clocks Art' online store.<br/>
                         Simplistic with emphasized double borders, this web app distinguishes itself from the original one through 
@@ -27,7 +29,9 @@ function Portfolio () {
                         </p>
                     </div>
         
-                    <a href="https://vinyl-craft-art.netlify.app" target='blank'><iframe src="https://vinyl-craft-art.netlify.app" className="iFrame" title="Vinyl Craft Art"/></a>
+                    <a href="https://vinyl-craft-art.netlify.app" target='blank'>
+                        <iframe src="https://vinyl-craft-art.netlify.app" className="iFrame" target="blank" title="Vinyl Craft Art"/>
+                    </a>
                     
                 </div>
             </div>
