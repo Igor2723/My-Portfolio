@@ -201,7 +201,7 @@ main {
 }
 @media only screen and (max-width: 559px) {
 .greeting h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .code {
   font-size: 2.2rem;
@@ -209,7 +209,7 @@ main {
 }
 @media only screen and (max-width: 488px) {
   .greeting h3 {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
   .code {
     font-size: 2rem;
@@ -217,7 +217,7 @@ main {
   }
   @media only screen and (max-width: 440px) {
     .greeting h3 {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
     }
     .code {
       font-size: 1.8rem;
