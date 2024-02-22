@@ -19,8 +19,8 @@ const Contact = () => {
         <div className="social-container">
           <h3> Follow Me!</h3>
           <div className="icons-container">
-            <a href="https://github.com/Igor2723" target="_blank"><FontAwesomeIcon className="social-icon" icon={faGithub} style={{color: "#6E6E6E",}} /></a>
-            <a href="#"><FontAwesomeIcon className="social-icon" icon={faLinkedin} style={{color: "#6E6E6E",}} /></a>
+            <a href="https://github.com/Igor2723" title="GitHub" target="_blank"><FontAwesomeIcon className="social-icon" icon={faGithub} style={{color: "#6E6E6E",}} /></a>
+            <a href="https://www.linkedin.com/in/igor-zivkovic-5846b6252/" title="LinkedIn" target="_blank"><FontAwesomeIcon className="social-icon" icon={faLinkedin} style={{color: "#6E6E6E",}} /></a>
           </div>
         </div>
       </div>
